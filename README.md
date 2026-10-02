@@ -33,12 +33,3 @@ Repositorio de apuntes teóricos detallados, chuletas de comandos y laboratorios
 
 - **Cisco Packet Tracer (v8.2 o superior):** Para abrir y simular los laboratorios `.pkt`.
 - **Obsidian / VS Code:** Para visualización y edición optimizada de los apuntes en Markdown.
-
----
-
-## 🚀 Cómo usar este repositorio
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/Angelmmoran/CCNA.git](https://github.com/Angelmmoran/CCNA_200-301.git)
-
