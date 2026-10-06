@@ -66,10 +66,16 @@ VLANS 0 y 4095 no se pueden usar
 
 #### Native VLAN
 Por defecto, la VLAN nativa del Switch es VLAN 1. No se añaden Tags 801.1Q para Native VLAN. Se puede configurar manualmente otra.
-Si se recibe un paquete sin tag, se entiende que pertenece a la Native VLAN.
+Si se recibe un paquete sin tag, se entiende que pertenece a la Native VLAN. Al no tener Tags, es un sistema mas eficiente.
 **ES MUY IMPORTANTE QUE LAS NATIVE VLAN SEAN LAS MISMAS EN TODOS LOS SWITCHS**
 Por seguridad, se debe configurar una VLAN que no se usa.
 
+Hay dos formas de configurar una VLAN Nativa:
+- Usando encapsulation dot1q *vlan-id* native en una subinterfaz del router.
+![[Pasted image 20261006181922.png]]
+
+- Configurar la dirección IP para la Vlan nativa en la interfaz física del router.
+![[Pasted image 20261006182638.png]]
 #### Router on a Stick (ROAS)
 Se llama así porque al usar solo una interfaz para conectarse al router, en el diagrama de red parece un palo.
 Se usa para interVLAN routing, y podemos subdividir una sola interfaz física en sub-interfaces.
@@ -83,3 +89,27 @@ Para entrar en la sub-interfaz, interface g0/0.10 para la sub-interfaz de la VLA
 Luego configuramos la VLAN de esta sub-interfaz con *encapsulation dot1q 10*
 Y configuramos la IP, la última utilizable de la VLAN y la máscara correspondiente.
 Seguimos el mismo proceso para las otras dos sub-interfaces.
+
+### Ejemplo de ruta 
+
+![[Pasted image 20261006180801.png]]
+
+El PC1 de VLAN10 quiere comunicarse con el PC1 de VLAN30:
+
+El paquete se envía a SW2.
+SW2 envía el paquete a R1 a través de la interfaz G0/1 con el Tag VLAN10.
+R1 lo recibe en su interfaz G0/0, identificando que llega en la subinterfaz G0/0.10 porque viene con el tan VLAN10.
+El destino del paquete está en la subred 192.168.1.128/26, que está conectada a la interfaz G0/0.30 de R1.
+R1 envía el paquete por su interfaz G0/0 a SW2 con el Tag VLAN30 (configurado en la subinterfaz G0/0.30).
+SW2 lo envía a SW1 y SW1 a PC1.
+
+## ¿Como funcionan los Switch de capa 3 o multicapa
+
+Estos switches pueden hacer switching y routing. Se pueden asignar IPs a sus interfaces como a un router. Se pueden crear interfaces virtuales para cada VLAN. Se pueden configurar rutas. Se puede usar para inter-VLAN routing.
+
+SVI (Switch Virtual Interface) son interfaces virtuales a las que puedes asignar una IP en un Switch multicapa. 
+Confugura cada PC para usar SVI como Gateway Address y no el router.
+
+#### Configuración de SVI 
+![[Pasted image 20261006184036.png]]
+

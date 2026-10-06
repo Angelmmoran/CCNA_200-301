@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "004-Switch Interface/004-Switch Interface..md",
+                "file": "009-VLANs/009-VLANs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004-Switch Interface."
+              "title": "009-VLANs"
             }
           }
         ]
@@ -185,6 +185,14 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5d086ee6e448827f",
-  "lastOpenFiles": []
+  "active": "da3605759c6a7deb",
+  "lastOpenFiles": [
+    "999-Imágenes/Pasted image 20261006184036.png",
+    "000-Comandos/006-Comandos VLANs.md",
+    "009-VLANs/009-VLANs.md",
+    "999-Imágenes/Pasted image 20261006182638.png",
+    "999-Imágenes/Pasted image 20261006181922.png",
+    "999-Imágenes/Pasted image 20261006180801.png",
+    "004-Switch Interface/004-Switch Interface..md"
+  ]
 }
