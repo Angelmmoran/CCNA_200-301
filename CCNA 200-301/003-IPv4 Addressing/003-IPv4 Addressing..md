@@ -6,7 +6,7 @@ El dispositivo que separa redes es el Router, cada una con su dirección IP.
 
 192.168.1.0/24 (255.255.255.0) 192.168.2.0/24 (255.255.255.0)
 
-![[Pasted image 20260831181613.png]]
+![Pasted image 20260831181613.png](<../999-Imágenes/Pasted image 20260831181613.png>)
 
 Los routers tienen diferentes direcciones IPs para cada una de las interfaces que tienen conectadas. 
 
@@ -36,7 +36,7 @@ Una IP tiene una longitud de 32 bits, /24 significa que los primeros 24 (3 prime
 192.168.1 -> es la Network Portion.
 .254 -> es la Host Portion.
 
-![[Pasted image 20260901074752.png]]
+![Pasted image 20260901074752.png](<../999-Imágenes/Pasted image 20260901074752.png>)
 
 La IP del PC1 del SW1 es 192.168.1.1
 La IP del PC2 del SW1 es 192.168.1.2
@@ -63,7 +63,7 @@ Nos centraremos principalmente en las clases A, B y C.
 
 Realmente, las IPs de tipo A solo se usan hasta 126, porque 127 está reservado para Loopback addresses. Si hacemos ping a cualquier IP dentro de ese rango, nuestro ordenador simplemente enviará y recibirá los paquetes del ping a si mismo.
 
-![[Pasted image 20260901081124.png]]
+![Pasted image 20260901081124.png](<../999-Imágenes/Pasted image 20260901081124.png>)
 
 Todos los tiempos de ida a vuelta son 0ms, porque el tráfico no está yendo a ningún sitio, solo va y vuelve al mismo ordenador.
 
@@ -94,7 +94,7 @@ Cuando escribamos la IP, también tenemos que escribir seguido la subnet mask.
 ---
 # Decimal y Exadecimal
 
-![[Pasted image 20260901070936.png]]
+![Pasted image 20260901070936.png](<../999-Imágenes/Pasted image 20260901070936.png>)
 
 El número 3249 en decimal (base 10) lo podemos desglosar como:
 3294 =

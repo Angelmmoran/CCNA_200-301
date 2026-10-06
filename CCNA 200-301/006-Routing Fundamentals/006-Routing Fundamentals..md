@@ -14,14 +14,14 @@ Una ruta le dice al router:
  -> Si el destino final es el router en si mismo, no envíes el paquete.
  -> Si la ruta no existe, el router dropea el paquete, nunca hace flood.
 
-![[Pasted image 20260913093136.png]]
+![Pasted image 20260913093136.png](<../999-Imágenes/Pasted image 20260913093136.png>)
 
 ---
 
- **Configuración R1**: ![[Pasted image 20260913094101.png]]
+ **Configuración R1**: ![Pasted image 20260913094101.png](<../999-Imágenes/Pasted image 20260913094101.png>)
 
 **Tabla rutas R1**:
-![[Pasted image 20260913094228.png]]
+![Pasted image 20260913094228.png](<../999-Imágenes/Pasted image 20260913094228.png>)
  - Ruta conectada (C) es una ruta a la red conectada conectada a la interfaz.
 	 - R1 G0/2 IP = 192.168.1.1/24
 	 - Network Address = 192.168.1.0/24
@@ -34,13 +34,13 @@ Una ruta le dice al router:
 	- Aunque la interfaz G0/2 de R1 está configurada como 192.168.1.1/24, la ruta L es  192.168.1.1/32. Indica SOLO esta dirección, ni incluye, por ejemplo 192.168.1.2.
 	- Con esto, R1 sabe que si recibe un paquete a esta dirección es para el mismo.
 
-![[Pasted image 20260913095859.png]]
+![Pasted image 20260913095859.png](<../999-Imágenes/Pasted image 20260913095859.png>)
 
-![[Pasted image 20260913100036.png]]
+![Pasted image 20260913100036.png](<../999-Imágenes/Pasted image 20260913100036.png>)
 
 ## Selección de ruta
 
-![[Pasted image 20260913172118.png|700]]
+![Pasted image 20260913172118.png|700](<../999-Imágenes/Pasted image 20260913172118.png|700>)
 
 Si R1 recibe un paquete con destino 192.168.1.1, ¿a que IP lo envía? 
 		- 192.168.1.0/24
@@ -51,11 +51,11 @@ La ruta hacía la IP 192.168.1.0/24 incluye 256 IPs distintas (192.168.1.0-192.1
 La ruta hacia la IP 192.168.1.1./32 incluye **SOLO** la IP 192.168.1.1.
 			-> Esta ruta es mas específica.
 **Mas específica** significa la ruta coincidente con el **prefijo fijado mas largo**.
-![[Pasted image 20260913173037.png]]
+![Pasted image 20260913173037.png](<../999-Imágenes/Pasted image 20260913173037.png>)
 
 #### Otros ejemplos de selección de ruta:
 
-![[Pasted image 20260913174515.png]]
+![Pasted image 20260913174515.png](<../999-Imágenes/Pasted image 20260913174515.png>)
 
 ### Resumen:
 

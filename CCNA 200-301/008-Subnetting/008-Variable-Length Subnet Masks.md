@@ -3,7 +3,7 @@ Hasta ahora hemos usado FLSM (Fixed). Todas las subredes usan el mismo prefix le
 
 VLSM es el proceso de crear subnets de diferentes tamaños para hacer mas eficiente la network addressing.
 
-![[Pasted image 20260921094451.png]]
+![Pasted image 20260921094451.png](<../999-Imágenes/Pasted image 20260921094451.png>)
 
 ### Pasos para hacer subnetting con VLSM
 
@@ -125,4 +125,4 @@ Cambiando todos los bits de hosts a 1, obtenemos la broadcast. Con esta y con la
 192      168           1              243
 
 
-![[Pasted image 20260921103811.png]]
+![Pasted image 20260921103811.png](<../999-Imágenes/Pasted image 20260921103811.png>)

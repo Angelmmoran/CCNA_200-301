@@ -1,7 +1,7 @@
 [[001-Comandos Básicos]]
 [[002-Comandos Ethernet Switching]]
 
-![[Pasted image 20260825131044.png]]
+![Pasted image 20260825131044.png](<../999-Imágenes/Pasted image 20260825131044.png>)
 
 ---
 

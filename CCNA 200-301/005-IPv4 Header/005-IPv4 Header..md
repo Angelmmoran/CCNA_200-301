@@ -1,6 +1,6 @@
 [[001-Comandos Básicos]] [[003-Comandos IPv4]]
 
-![[Pasted image 20260911072748.png]]
+![Pasted image 20260911072748.png](<../999-Imágenes/Pasted image 20260911072748.png>)
 
 Para leer este cuadro, empezamos arriba a la izquierda; y leemos hacia la derecha y luego hacia abajo (version, ILH, DSCP, ECN, Total Lenght, Identification...)
 

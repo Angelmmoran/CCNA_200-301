@@ -8,7 +8,7 @@ Que un switch tenga el estado "down" significa que no está conectado a otro dis
 
 #### Comando show interfaces status
 
-![[Pasted image 20260906110831.png]]
+![Pasted image 20260906110831.png](<../999-Imágenes/Pasted image 20260906110831.png>)
 
 Port muestra cada interfaz 
 Name muestra la descripcion 
@@ -21,7 +21,7 @@ Type muestra el tipo de interfaz
 
 Por seguridad, debemos desactivar las interfaces que no están en uso 
 
-![[Pasted image 20260906111813.png]]
+![Pasted image 20260906111813.png](<../999-Imágenes/Pasted image 20260906111813.png>)
 
 ## Full y Half Duplex
 
@@ -55,5 +55,5 @@ Las interfaces en auto "anuncian" su capacidad a los otros dispositivos y negoci
 
 Esto lo vemos con el comando show interface. Esta información aparece en la parte de abajo. 
 
-![[Pasted image 20260906114013.png]]
+![Pasted image 20260906114013.png](<../999-Imágenes/Pasted image 20260906114013.png>)
 
