@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9a77fa963204c6e1",
+        "id": "d8859ffd6114ec01",
         "type": "tabs",
         "children": [
           {
-            "id": "5d086ee6e448827f",
+            "id": "5f267c0674bb39ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "008-Subnetting/008-Subnetting.md",
+                "file": "010-DTP & VTP/010 - DTP & VTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "008-Subnetting"
+              "title": "010 - DTP & VTP"
             }
           }
         ]
@@ -185,18 +185,21 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5d086ee6e448827f",
+  "active": "da3605759c6a7deb",
   "lastOpenFiles": [
+    "999-Imágenes/Pasted image 20261012184457.png",
+    "003-IPv4 Addressing/003-IPv4 Addressing..md",
+    "010-DTP & VTP/010 - DTP & VTP.md",
+    "010-DTP & VTP",
+    "008-Subnetting/008-Subnetting.md",
     "008-Subnetting/Day 15 Lab - VLSM.pkt",
     "000-Comandos/005-Comandos Routing.md",
     "000-Comandos/004-Comandos Switch Interface.md",
     "000-Comandos/003-Comandos IPv4.md",
-    "008-Subnetting/008-Subnetting.md",
     "000-Comandos/002-Comandos Ethernet Switching.md",
     "000-Comandos/006-Comandos VLANs.md",
     "008-Subnetting/008-Variable-Length Subnet Masks.md",
     "006-Routing Fundamentals/006-Routing Fundamentals..md",
-    "003-IPv4 Addressing/003-IPv4 Addressing..md",
     "005-IPv4 Header/005-IPv4 Header..md",
     "000-Comandos/001-Comandos Básicos.md",
     "009-VLANs/009-VLANs.md",
