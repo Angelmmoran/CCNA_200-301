@@ -25,7 +25,7 @@ La opción *dynnamic* es la que configura DTP
 | Dynamic Auto        | Trunk |       Trunk       | Access |    Access    |
 Por ejemplo, un switch en modo *dynamic desirable* formará conexiones trunk con cualquier otro switch excepto con los que estén en modo *access*.
 
-## VTP - VLAN Trunking Protoco
+## VTP - VLAN Trunking Protocol
 VTP permite configurar VLANs en un VTP server switch centra, y otros switches (VTP clients) sinctronizarán sus bases de datos de VLAN con este servidor.
 Está diseñado para redes muy grandes, con muchas VLANs, para no tener que configurar cada VLAN en cada switch.
 Sin embargo, a penas se usa, y no se recomienda su uso. Uno de los motivos es porque, si conectas un switch antiguo con un *Revision number* mayor al de tu red (y el dominio de VTP coincide) todos los switches del dominio se actualizarán a esa versión.
