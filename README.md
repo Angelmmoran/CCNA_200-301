@@ -23,9 +23,10 @@ Repositorio de apuntes teóricos detallados, chuletas de comandos y laboratorios
 | **007** | [Static Routing](./CCNA%20200-301/007-Static%20Routing/) | Rutas estáticas, default routes (0.0.0.0/0), floating static routes y next-hop. | 📝 / 🧪 |
 | **008** | [Subnetting](./CCNA%20200-301/008-Subnetting/) | Cálculo VLSM, CIDR, rangos de host y optimización de espacios de red. | 📝 |
 | **009** | [VLANs](./CCNA%20200-301/009-VLANs/) | Segmentación lógica, troncales 802.1Q, VLAN de acceso, native VLAN y VTP. | 📝 / 🧪 |
+| **010** | [DTP & VTP](./CCNA%20200-301/010-DTP%&%VTP/) | Descripción básica y funcionamiento de los protocolos DTP y VTP propios de Cisco | 📝 / 🧪 |
 | **998** | [Decimal a Binario](./CCNA%20200-301/998%20-%20Decimal%20a%20Binario/) | Guías y métodos de conversión rápida para cálculo de subredes. | 📝 |
 
-> *Leyenda de estado: 📝 Notas teóricas en Markdown | 🧪 Laboratorio de Packet Tracer (.pkt)*
+> *Leyenda de estado: 📝 Notas teóricas en Markdown | 🧪 Laboratorio resuelto de Packet Tracer (.pkt)*
 
 ---
 
