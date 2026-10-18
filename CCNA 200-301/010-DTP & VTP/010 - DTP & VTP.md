@@ -23,6 +23,7 @@ La opción *dynnamic* es la que configura DTP
 | Dynamic Desirable   | Trunk |       Trunk       | Access |    Trunk     |
 | Access              |   X   |      Access       | Access |    Access    |
 | Dynamic Auto        | Trunk |       Trunk       | Access |    Access    |
+
 Por ejemplo, un switch en modo *dynamic desirable* formará conexiones trunk con cualquier otro switch excepto con los que estén en modo *access*.
 
 ## VTP - VLAN Trunking Protocol
