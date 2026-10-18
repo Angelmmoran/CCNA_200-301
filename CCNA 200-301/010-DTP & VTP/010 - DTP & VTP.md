@@ -4,7 +4,7 @@ DTP y VTP son protocolos específicos de Cisco que fueron diseñados y desarroll
 Permite a los switchs de Cisco determinar dinámicamente el estado de su interfaz, entre *access* o *trunk* sin necesidad de configuración manual. DTP está activado por defecto en todos los switchs de Cisco.
 Por seguridad, este protocolo debe ser desactivado y debemos configurar las interfaces manualmente. DTP puede ser explotado por atacantes. 
 La opción *dynnamic* es la que configura DTP
-![](999-Imágenes/Pasted%20image%2020261012184457.png)
+![](../999-Imágenes/Pasted%20image%2020261012184457.png)
 
 **auto**:  **NO** intentará formar un trunk de forma activa. Sin embargo, si otro switch le solicita crear un trunk, lo hará. Creará un trunk con un switchport en alguno de estos modos:
 	- *switchport mode trunk*
