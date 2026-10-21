@@ -1,4 +1,4 @@
-#comandosEthernetSwitching 
+#comandosEthernetSwitching #comandos
 
 |                         Comando                         |                                 Descripción                                 |
 | :-----------------------------------------------------: | :-------------------------------------------------------------------------: |

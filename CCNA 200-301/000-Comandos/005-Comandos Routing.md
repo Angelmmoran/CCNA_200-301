@@ -1,4 +1,4 @@
-#comandosrouting
+#comandosrouting #comandos 
 
 
 | Comando                            | Descripción                                     |

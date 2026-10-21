@@ -1,3 +1,4 @@
+[001-Comandos Básicos](../000-Comandos/001-Comandos%20Básicos.md)
 DTP y VTP son protocolos específicos de Cisco que fueron diseñados y desarrollados por Cisco, y que solo funciona en sus dispositivos. Actualmente estos dos conceptos se encuentran fuera del temario oficial de CCNA 200-301, pero aún así hay algunas preguntas en algunos exámenes sobre estos temas. Esta página será menos detallada, solo cubre los detalles básicos para saber como funcionan estos protocolos para poder responder las preguntas básicas que quedan en algunos exámenes.
 
 ## 1. DTP - Dynamic Trunking Protocol

@@ -1,4 +1,4 @@
-[[001-Comandos Básicos]]
+[[001-Comandos Básicos]] #subnets
 
 Un problema con las asignaciones de IPs es la cantidad de direcciones que se pierden y no pueden usarse. Ejemplo:
 

@@ -1,4 +1,4 @@
-#comandosIPv4
+#comandosIPv4 #comandos 
 
 
 |                Comando                 |                                                  Descripción                                                  |

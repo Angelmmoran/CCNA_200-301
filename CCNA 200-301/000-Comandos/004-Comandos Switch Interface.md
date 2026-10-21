@@ -1,4 +1,4 @@
-#comandosSwitchInterface
+#comandosSwitchInterface #comandos 
 
 
 | Comando                             | Descripción                                                                                                              |

@@ -1,4 +1,4 @@
-#comandosBasicos
+#comandosBasicos #comandos
 
 |  Comandos básicos CLI CISCO  |                               Descripción                               |
 | :--------------------------: | :---------------------------------------------------------------------: |

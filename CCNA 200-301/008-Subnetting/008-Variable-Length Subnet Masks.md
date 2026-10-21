@@ -1,4 +1,4 @@
-[[001-Comandos Básicos]][[003-Comandos IPv4]][[005-Comandos Routing]]
+[[001-Comandos Básicos]][[003-Comandos IPv4]][[005-Comandos Routing]] #subnets
 Hasta ahora hemos usado FLSM (Fixed). Todas las subredes usan el mismo prefix lenght (ej. subnnetting clase c en 4 subnets usando /26)
 
 VLSM es el proceso de crear subnets de diferentes tamaños para hacer mas eficiente la network addressing.
