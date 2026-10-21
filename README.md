@@ -25,6 +25,7 @@ Repositorio de apuntes teóricos detallados, chuletas de comandos y laboratorios
 | **009** | [VLANs](./CCNA%20200-301/009-VLANs/) | Segmentación lógica, troncales 802.1Q, VLAN de acceso, native VLAN y VTP. | 📝 / 🧪 |
 | **010** | [DTP & VTP](./CCNA%20200-301/010-DTP%20%26%20VTP/) | Descripción básica y funcionamiento de los protocolos DTP y VTP propios de Cisco | 📄 / 🧪 |
 | **011** | [STP](./CCNA%20200-301/011-STP/) | Explicación de Spanning Tree Protocol, prevención de bucles, BPDUs y estados de los puertos. | 📄 / 🧪|
+| **012** | [STP Tool](./CCNA%20200-301/012_STP%20Toolkit/) | Incluye información sobre el ToolKit de STP (PortFast,BPDU Guard & Filter, Root Guard y Loop Guard) | 📝 |
 | **998** | [Decimal a Binario](./CCNA%20200-301/998%20-%20Decimal%20a%20Binario/) | Guías y métodos de conversión rápida para cálculo de subredes. | 📝 |
 
 > *Leyenda de estado: 📝 Notas teóricas en Markdown | 🧪 Laboratorio resuelto de Packet Tracer (.pkt)*
