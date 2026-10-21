@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "012_STP Toolkit/12.4-Loop Guard.md",
+                "file": "012-STP Toolkit/012.1-PortFast.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.4-Loop Guard"
+              "title": "012.1-PortFast"
             }
           }
         ]
@@ -187,11 +187,11 @@
   },
   "active": "925543678aeab533",
   "lastOpenFiles": [
-    "012_STP Toolkit/12.3-Root Guard.md",
-    "012_STP Toolkit/012.2-BPDU Guard & BPDU Filter.md",
-    "012_STP Toolkit/012.1-PortFast.md",
-    "012_STP Toolkit/12.4-Loop Guard.md",
-    "012_STP Toolkit",
+    "012-STP Toolkit/012.4-Loop Guard.md",
+    "012-STP Toolkit/012.3-Root Guard.md",
+    "012-STP Toolkit/012.2-BPDU Guard & BPDU Filter.md",
+    "012-STP Toolkit/012.1-PortFast.md",
+    "012-STP Toolkit",
     "008-Subnetting/008-Variable-Length Subnet Masks.md",
     "008-Subnetting/008-Subnetting.md",
     "011-STP/011-STP.md",
