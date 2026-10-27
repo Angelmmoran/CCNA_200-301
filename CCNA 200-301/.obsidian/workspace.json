@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "012-STP Toolkit/012.1-PortFast.md",
+                "file": "012-STP Toolkit/012.2-BPDU Guard & BPDU Filter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "012.1-PortFast"
+              "title": "012.2-BPDU Guard & BPDU Filter"
             }
           }
         ]
@@ -188,14 +188,15 @@
   "active": "925543678aeab533",
   "lastOpenFiles": [
     "012-STP Toolkit/012.4-Loop Guard.md",
-    "012-STP Toolkit/012.3-Root Guard.md",
+    "000-Comandos/007-Comandos STP.md",
     "012-STP Toolkit/012.2-BPDU Guard & BPDU Filter.md",
     "012-STP Toolkit/012.1-PortFast.md",
+    "999-Imágenes/Pasted image 20261027180742.png",
+    "012-STP Toolkit/012.3-Root Guard.md",
     "012-STP Toolkit",
     "008-Subnetting/008-Variable-Length Subnet Masks.md",
     "008-Subnetting/008-Subnetting.md",
     "011-STP/011-STP.md",
-    "000-Comandos/007-Comandos STP.md",
     "000-Comandos/006-Comandos VLANs.md",
     "000-Comandos/005-Comandos Routing.md",
     "000-Comandos/004-Comandos Switch Interface.md",
@@ -221,7 +222,6 @@
     "009-VLANs/009-VLANs.md",
     "999-Imágenes/Pasted image 20261006184036.png",
     "999-Imágenes/Pasted image 20261006182638.png",
-    "999-Imágenes/Pasted image 20261006181922.png",
     "004-Switch Interface/004-Switch Interface..md"
   ]
 }
